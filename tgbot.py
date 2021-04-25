@@ -10,6 +10,8 @@ from pyrogram import filters
 from pyrogram import Client as tg
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
+from config import Config
+
 @tg.on_message(filters.command('help') & filters.private)
 async def help(client, message):
     await message.reply_text(
