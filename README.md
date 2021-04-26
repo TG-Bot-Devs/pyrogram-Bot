@@ -34,6 +34,12 @@ After Finishing All Deploy It `Add More Vars [⚠️Only If You Want⚠️]` . C
 
 eg : ```SESSION_STRING = os.environ.get("SESSION_STRING", "")```
 
+### NOW DEPLOY IT
+<p align="left">
+  <a href="https://heroku.com/deploy/">
+     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
+  </a>
+
 ##### Credits
 
 [Vivek](https://github.com/Vivek-TP)
