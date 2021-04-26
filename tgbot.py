@@ -8,7 +8,7 @@ api_id = 12345
 api_hash = "0123456789abcdef0123456789abcdef"
 tg_bot_token = Jsjhejbs82u82jeijsksidjrkerbjrj
 
-Bot=tg(api_id, api_hash, tg_bot_token)
+tg = Client("TG-Bot", bot_token = os.environ["BOT_TOKEN"], api_id = int(os.environ["API_ID"]), api_hash = os.environ["API_HASH"])
 
 @tg.on_message(filters.command('start') & filters.private)
 async def start(client, message):
@@ -25,5 +25,9 @@ async def start(client, message):
         ),
         reply_to_message_id=message.message_id
     )
+
+
+tg.run()
+
 
 # Copy This And Paste Here And Replace Commands.You Can Change This Bot To Any Bot By Adding More Codes eg: Renamer bot , Group Manager Bot, etc....
