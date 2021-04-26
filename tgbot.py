@@ -4,13 +4,13 @@ from config import Config
 
 tg = Client("my_account")
 
-from pyrogram import Client
+from pyrogram import Client as tg
 
 api_id = 12345
 api_hash = "0123456789abcdef0123456789abcdef"
 
-with Client("my_account", api_id, api_hash) as tg:
-    tg.send_message("me", "Greetings from **Pyrogram**!")
+
+Bot=tg(api_id, api_hash)
 
 @tg.on_message(filters.command('start') & filters.private)
 async def start(client, message):
