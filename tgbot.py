@@ -6,7 +6,7 @@ from pyrogram import Client as tg
 
 api_id = 12345
 api_hash = "0123456789abcdef0123456789abcdef"
-
+tg_bot_token = Jsjhejbs82u82jeijsksidjrkerbjrj
 
 Bot=tg(api_id, api_hash)
 
