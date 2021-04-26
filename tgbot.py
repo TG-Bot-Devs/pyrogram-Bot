@@ -1,8 +1,8 @@
 from pyrogram import filters
-from pyrogram import Client as tg
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-
 from config import Config
+
+tg = Client("my_account")
 
 @tg.on_message(filters.command('start') & filters.private)
 async def start(client, message):
