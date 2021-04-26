@@ -31,5 +31,6 @@ After Replace **YOUR** Go To **Script.py** And Type Like This ```YOUR_MSG = """Y
 
 ##### Credits
 
-[Vivek](https://github.com/Vivek-TP),
+[Vivek](https://github.com/Vivek-TP)
+
 [Pyrogram](https://github.com/Pyrogram)
