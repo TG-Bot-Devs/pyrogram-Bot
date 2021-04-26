@@ -1,1 +1,1 @@
-    START_TEXT = """Replace Your Start Text Here"""
+    START_MSG = """Replace Your Start Text Here"""
