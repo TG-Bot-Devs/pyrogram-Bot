@@ -62,4 +62,7 @@ Copy This -> ```"VAR_NAME": {
 
 [Vivek](https://github.com/Vivek-TP)
 
-[Pyrogram](https://github.com/Pyrogram)
+<p align="left">
+  <a href="https://docs.pyrogram.org/">
+     <img height="30px" src="https://telegra.ph/file/4a642e823b5250c99da91.jpg">
+  </a>
