@@ -8,7 +8,7 @@ api_id = 12345
 api_hash = "0123456789abcdef0123456789abcdef"
 tg_bot_token = Jsjhejbs82u82jeijsksidjrkerbjrj
 
-Bot=tg(api_id, api_hash)
+Bot=tg(api_id, api_hash, tg_bot_token)
 
 @tg.on_message(filters.command('start') & filters.private)
 async def start(client, message):
