@@ -4,7 +4,7 @@
 
 <p align="left">
   <a href="https://docs.pyrogram.org/">
-     <img height="30px" src="https://telegra.ph/file/131de602423e6e85d0e45.jpg">
+     <img height="30px" src="https://telegra.ph/file/4a642e823b5250c99da91.jpg">
   </a>
 
 `Fork This Repo And Change The Repo To Any Bots
