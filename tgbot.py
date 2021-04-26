@@ -2,8 +2,6 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import Config
 
-tg = Client("my_account")
-
 from pyrogram import Client as tg
 
 api_id = 12345
