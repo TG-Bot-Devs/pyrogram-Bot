@@ -52,6 +52,10 @@ Copy This -> ```"VAR_NAME": {
             "description": "description",
             "value": ""``` And Replace VAR_NAME To REPLACE at NAME VAR_NAME of the new VAR provided in **config.py.**
 
+### Python
+
+Change Python Version In `runtime.txt`.Python Updates -> [Here](https://github.com/python)
+
 ### NOW DEPLOY IT
 <p align="left">
   <a href="https://heroku.com/deploy/">
