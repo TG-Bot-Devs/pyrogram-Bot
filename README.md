@@ -58,7 +58,7 @@ Copy This -> ```"VAR_NAME": {
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
-##### Credits
+### Credits
 
 [Vivek](https://github.com/Vivek-TP)
 
