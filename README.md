@@ -1,4 +1,4 @@
-# Tg-Bot
+# Pyrogram
 
 ##### An Simple Demo Telegram Bot
 
