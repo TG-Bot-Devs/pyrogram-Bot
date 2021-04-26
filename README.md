@@ -27,7 +27,9 @@ async def text(client, message):
 `````
 You Can Change The Messages By Replace 4Th Line ```text=Script.YOUR_MSG,``` Replace **YOUR** To Your Command Name.
 
-After Replace **YOUR** Go To **Script.py** And Type Like This ```YOUR_MSG = """Your Text"""``` Replace **Your Text** To Your Cutom Message.
+After Replace **YOUR** And Go To **Script.py** And Type Like This ```YOUR_MSG = """Your Text"""``` Replace **Your Text** To Your Cutom Message.
+
+After Finishing All Deploy It `Add More Vars If You Want` . Go To confing.py And 
 
 ##### Credits
 
