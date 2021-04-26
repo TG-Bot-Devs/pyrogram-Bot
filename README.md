@@ -25,4 +25,4 @@ async def text(client, message):
         reply_to_message_id=message.message_id
     )
 `````
-You Can Change The Messages By Replace 4Th Line ```text=Script.YOUR_MSG,``` Replace Your Command Name On *YOUR*
+You Can Change The Messages By Replace 4Th Line ```text=Script.YOUR_MSG,``` Replace Your Command Name On **YOUR**
