@@ -2,6 +2,11 @@
 
 ##### An Simple Demo Telegram Bot
 
+<p align="left">
+  <a href="https://docs.pyrogram.org/">
+     <img height="30px" src="https://docs.pyrogram.org/">
+  </a>
+
 `Fork This Repo And Change The Repo To Any Bots
 eg : Renamer Bot , YouTube Downloader Bot etc...`
 
