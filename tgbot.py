@@ -4,10 +4,10 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from config import Config
 
-@tg.on_message(filters.command('help') & filters.private)
-async def help(client, message):
+@tg.on_message(filters.command('start') & filters.private)
+async def start(client, message):
     await message.reply_text(
-        text=Script.HELP_MSG,
+        text=Script.START_MSG,
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
