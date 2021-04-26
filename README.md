@@ -2,11 +2,11 @@
 
 ##### An Simple Demo Telegram Bot
 
-Fork This Repo And Change The Repo To Any Bots eg : Renamer Bot , YouTube Downloader Bot etc...
+######## Fork This Repo And Change The Repo To Any Bots eg : Renamer Bot , YouTube Downloader Bot etc...
 
 You Can Add More Commands On This Repo.
 
-Copy This And Replace The Text To Your Command.👇🏻
+Copy This And Paste On tgbot.py And Replace The >Text< To Your Command.👇🏻 And You Can Add More Modules.
 
 `````
 @tg.on_message(filters.command('text') & filters.private)
