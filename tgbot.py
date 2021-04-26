@@ -4,6 +4,14 @@ from config import Config
 
 tg = Client("my_account")
 
+from pyrogram import Client
+
+api_id = 12345
+api_hash = "0123456789abcdef0123456789abcdef"
+
+with Client("my_account", api_id, api_hash) as app:
+    app.send_message("me", "Greetings from **Pyrogram**!")
+
 @tg.on_message(filters.command('start') & filters.private)
 async def start(client, message):
     await message.reply_text(
