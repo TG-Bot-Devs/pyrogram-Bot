@@ -34,6 +34,8 @@ After Finishing All Deploy It `Add More Vars [⚠️Only If You Want⚠️]` . C
 
 eg : ```SESSION_STRING = os.environ.get("SESSION_STRING", "")```
 
+Copy This ->  And Replace VAR_NAME To REPLACE at NAME VAR_NAME of the new VAR provided in **config.py.**
+
 ### NOW DEPLOY IT
 <p align="left">
   <a href="https://heroku.com/deploy/">
