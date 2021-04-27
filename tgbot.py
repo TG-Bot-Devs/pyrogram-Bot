@@ -4,10 +4,6 @@ from config import Config
 
 from pyrogram import Client as tg
 
-api_id = 12345
-api_hash = "0123456789abcdef0123456789abcdef"
-tg_bot_token = Jsjhejbs82u82jeijsksidjrkerbjrj
-
 tg = Client("TG-Bot", bot_token = os.environ["BOT_TOKEN"], api_id = int(os.environ["API_ID"]), api_hash = os.environ["API_HASH"])
 
 @tg.on_message(filters.command('start') & filters.private)
